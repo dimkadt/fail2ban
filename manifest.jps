@@ -27,7 +27,7 @@ logo: /images/Fail2Ban.png
 baseUrl: https://raw.githubusercontent.com/jelastic-jps/fail2ban/master/
 
 targetNodes:
-  nodeType:[
+  nodeType: [
     apache-lb, apache-balancer,
     apache, apache2,
     apache-python, apache2-python,
@@ -41,12 +41,10 @@ targetNodes:
     logstash,
     maven, maven3,
     memcached-dockerized, memcached,
-    mongo, mongosandbox,
     mysql, mariadb-dockerized, perconadb, pgpool2, pgpool2-4,
     nginx-dockerized, nginx,
     nginxphp-dockerized, nginxphp,
     nodejs,
-    redis,
     opensearch, opensearchdashboards,
     postgresql, proxysql,
     springboot,
